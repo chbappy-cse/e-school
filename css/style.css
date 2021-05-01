@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,800;1,600;1,700;1,900&display=swap');
+a,a:hover{
+	text-decoration: none;
+}
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.hero_area{
+	background:  #F0FFF0;
+}
+.main_menu{
+	padding: 25px 0px;
+}
+.navbar-brand img{
+	width: 200px;
+}
+.main_menu .nav-item .nav-link{
+	margin-left: 30px;
+	color: #000;
+}
+.signin_btn button{
+	padding: 12px 28px;
+	border-radius: 33px;
+	color: #fff;
+	background: #21b573;
+	margin-left: 20px;
+	border: 1px solid transparent;
+}
+.signin_btn button:hover{
+	background: transparent;
+	border: 1px solid #21b573;
+	color: #21b573;
+	transition: all .3s;
+}
+.hero_content{
+	padding: 78px 0px 50px;
+}
+.hero_content_left span{
+	font-size: 16px;
+	color: #FD511A;
+}
+.hero_content_left h1{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+	margin-top: 10px;
+}
+.hero_content_left h1 span{
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 70px;
+	color: #21b573;
+}
+.hero_content_left p{
+	color: #6C6B6B;
+	line-height: 36px;
+}
+.common_btn{
+	padding: 12px 36px;
+	border-radius: 33px;
+	color: #fff;
+	background: #21b573;
+	border: 1px solid transparent;
+	margin-top: 14px;
+	display: inline-block;
+}
+.common_btn:hover{
+	background: transparent;
+	border: 1px solid #21b573;
+	color: #21b573;
+	transition: all .3s;
+}
+/*Hero Area End*/
+.book_area{
+	padding: 42px 0px 98px;
+}
+.book_area .book_item{
+	text-align: center;
+	padding: 54px 20px;
+	background: #F0FFF0;
+	border-radius: 10px;
+}
+.book_item img{
+	width: 66px;
+	height: 70px;
+	margin: 0 auto;
+	text-align: center;
+	transition: .3s all;
+}
+.book_item h4{
+	font-size: 24px;
+	margin-top: 22px;
+	color: #413960;
+}
+.book_item h5{
+	font-size: 16px;
+	color: #585859;
+	font-weight: 400;
+}
+.book_area .book_item:hover{
+	background: #FFFFFF;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+
+}
+/*Book Area End*/
+.course_area{
+	padding-bottom: 80px;
+}
+.course_area h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 60px;
+	color: #413960;
+}
+.course_item{
+	padding: 24px 20px 30px;
+	box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+	border-radius: 10px;
+}
+.course_item h3{
+	font-size: 24px;
+	font-weight: 500;
+	color: #413960;
+	margin-top: 22px;
+}
+.course_item p{
+	color: #585859;
+	margin-bottom: 19px;
+}
+.course_item a{
+	padding: 8px 28px;
+	border-radius: 33px;
+	color: #fff;
+	background: #21b573;
+	border: 1px solid transparent;
+	margin-bottom: 34px;
+	display: inline-block;
+}
+.course_item a:hover{
+	background: transparent;
+	border: 1px solid #21b573;
+	color: #21b573;
+	transition: all .3s;
+}
+.course_footer {
+	color: 16px;
+	font-weight: 500;
+}
+/*Course Area End*/
+.testimonial_area{
+	padding-bottom: 106px;
+}
+.testimonial_area h2{
+	text-align: center;
+	font-size: 36px;
+	font-weight: 700;
+	margin-bottom: 60px;
+	color: #413960;
+}
+.testi_item{
+	display: flex;
+}
+.testi_item img{
+	width: 180px;
+	height: 180px;
+	margin-right: 52px;
+}
+.testi_item p{
+	text-align-last: left;
+	line-height: 30px;
+	margin-top: 11px;
+}
+/*Testimonial item end*/
+.footer_area{
+	background: #282531;
+	padding: 55px 0px 27px;
+}
+.footer_link{
+	margin-left: 50px;
+	color: #fff;
+}
+.footer_link h5{
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.footer_link ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.footer_link ul a{
+	color: #fff;
+	line-height: 30px;
+}
+.footer_desc p{
+	color: #fff;
+}
+.footer_desc a{
+	color: #fff;
+	display: block;
+}
+.footer_credit{
+	color: #fff;
+	text-align: center;
+	margin-top: 76px;
+}
+/*Footer End*/
+/*Responive Code Here*/
+@media(max-width: 768px){
+	.main_menu .nav-item .nav-link{
+		margin-left: 0;
+	}
+	.signin_btn button{
+		margin-left: 0;
+	}
+	.hero_content{
+		padding-top: 0px;
+	}
+	.hero_content_left{
+		margin-bottom: 30px;
+	}
+	.book_item{
+		margin-bottom: 30px;
+	}
+	.book_area {
+	    padding: 42px 0px 40px;
+	}
+	.course_item{
+		margin-bottom: 30px!important;
+	}
+	.course_area {
+	    padding-bottom: 20px;
+	}
+	.course_area h2{
+		margin-bottom: 30px;
+	}
+	.footer_link{
+		margin-top: 30px;
+		margin-left: 0;
+	}
+}
+@media(max-width: 320px){
+	body{
+		font-size: 12px;
+	}
+	.navbar-brand img{
+		width: 150px;
+	}
+	.hero_content_left h1 {
+	    font-size: 33px;
+	    line-height: 10px;
+	    margin-top: 20px;
+	}
+	.hero_content_left h1 span {
+	    font-size: 33px;
+	}
+	.hero_content_left p{
+		line-height: 24px;
+	}
+	.course_area h2, .testimonial_area h2{
+		font-size: 25px;
+	}
+	.book_area{
+		padding: 42px 0px 10px;
+	}
+	.testi_item {
+	    display: block;
+	}
+	.testimonial_area {
+	    padding-bottom: 30px;
+	}
+	.footer_link h5 {
+	    font-size: 12px;
+	    font-weight: 600;
+	    line-height: 15px;
+	}
+	.footer_credit{
+		margin-top: 30px;
+	}
+}
